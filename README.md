@@ -3,6 +3,6 @@ Group Name: [Enter Name ]
 
 [MVP Link](http://cs196.cs.illinois.edu)
 
-Team Members: harshvs2, alkadri2, smich3 
+Team Members: harshvs2, alkadri2, smich3, apasham2
 
 Project Manager: rsoni27
