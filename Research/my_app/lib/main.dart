@@ -68,7 +68,7 @@ class _LoginDemoState extends State<LoginDemo> {
             ),
             TextButton(
               onPressed: (){
-                //Take to Forgot password screen
+                //Take to survey
               },
               child: Text(
                 'New user? Create account!',
