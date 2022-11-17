@@ -50,6 +50,14 @@
       <excludeFolder url="file://$MODULE_DIR$/Research/my_app/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/Research/my_app/build" />
       <excludeFolder url="file://$MODULE_DIR$/Research/my_app/.dart_tool" />
+<<<<<<< Aishwarya
+      <excludeFolder url="file://$MODULE_DIR$/Research/Aishwarya/Tutorial/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Research/Aishwarya/Tutorial/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Research/Aishwarya/Tutorial/build" />
+=======
+      <excludeFolder url="file://$MODULE_DIR$/Research/Aishwarya/Tutorial/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Research/Aishwarya/Tutorial/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Research/Aishwarya/Tutorial/build" />
       <excludeFolder url="file://$MODULE_DIR$/Research/my_app/macos/Flutter/ephemeral/.symlinks/plugins/firebase_auth/example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/Research/my_app/macos/Flutter/ephemeral/.symlinks/plugins/firebase_auth/example/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/Research/my_app/macos/Flutter/ephemeral/.symlinks/plugins/firebase_auth/example/build" />
@@ -62,8 +70,11 @@
       <excludeFolder url="file://$MODULE_DIR$/Research/my_app/macos/Flutter/ephemeral/.symlinks/plugins/firebase_core/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/Research/my_app/macos/Flutter/ephemeral/.symlinks/plugins/firebase_core/build" />
       <excludeFolder url="file://$MODULE_DIR$/Research/my_app/macos/Flutter/ephemeral/.symlinks/plugins/firebase_core/.pub" />
+>>>>>>> master
     </content>
     <orderEntry type="jdk" jdkName="Android API 33, extension level 3 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
   </component>
 </module>
