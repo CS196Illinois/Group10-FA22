@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'homescreen.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -58,7 +60,6 @@ class _LoginDemoState extends State<LoginDemo> {
                   left: 15.0, right: 15.0, top: 15, bottom: 15),
               //padding: EdgeInsets.symmetric(horizontal: 15),
               child: TextField(
-
                 obscureText: true,
                 decoration: InputDecoration(
                     border: OutlineInputBorder(),
@@ -67,7 +68,7 @@ class _LoginDemoState extends State<LoginDemo> {
               ),
             ),
             TextButton(
-              onPressed: (){
+              onPressed: () {
                 //Take to survey
               },
               child: Text(
@@ -79,10 +80,12 @@ class _LoginDemoState extends State<LoginDemo> {
               height: 50,
               width: 250,
               decoration: BoxDecoration(
-                  color: Colors.purple, borderRadius: BorderRadius.circular(20)),
+                  color: Colors.purple,
+                  borderRadius: BorderRadius.circular(20)),
               child: TextButton(
-                onPressed: (){
-                    //Take to the homescreen
+                onPressed: () {
+                  //Take to the homescreen
+                  _navigateToNextScreen(context);
                 },
                 child: Text(
                   'Login',
@@ -98,5 +101,10 @@ class _LoginDemoState extends State<LoginDemo> {
         ),
       ),
     );
+  }
+
+  void _navigateToNextScreen(BuildContext context) {
+    Navigator.of(context)
+        .push(MaterialPageRoute(builder: (context) => HomeScreen1Widget()));
   }
 }
